@@ -1,3 +1,22 @@
+
 body {
   font-family: Roboto;
+  
+}
+
+.list{
+  list-style: none;
+}  
+
+.section1-item{
+  background-color: var(--navyblue, #2E2F42);
+  color: white;
+  text-align: center;
+  font-size: large;
+
+}
+
+.button-item{
+  background-color:var(--iris, #4D5AE5);
+  color: white;
 }
