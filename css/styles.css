@@ -1,7 +1,41 @@
 
 body {
-  font-family: Roboto;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Roboto', sans-serif;
   
+}
+
+.header-text {
+  color: var(--iris, #4D5AE5);
+font-family: Raleway;
+font-size: 18px;
+font-style: normal;
+font-weight: 800;
+line-height: 21px; /* 116.667% */
+letter-spacing: 0.54px;
+text-transform: uppercase;
+text-decoration: none;
+}
+
+p::after{
+  color: var(--iris, #95547d);
+}
+ 
+.link {
+  color: teal;
+  
+}
+
+.link:hover {
+  color: tomato;
+}
+
+.navigation .link {
+  color: teal;
+}
+
+.navigation .link:focus {
+  color: orange;
 }
 
 .list{
