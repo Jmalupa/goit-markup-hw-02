@@ -17,41 +17,47 @@ text-transform: uppercase;
 text-decoration: none;
 }
 
-p::after{
-  color: var(--iris, #95547d);
-}
- 
-.link {
-  color: teal;
-  
-}
 
-.link:hover {
-  color: tomato;
-}
-
-.navigation .link {
-  color: teal;
-}
-
-.navigation .link:focus {
-  color: orange;
-}
 
 .list{
   list-style: none;
+  padding: 0;
+  margin: 0;
   
 }  
 
-.section1-item{
+.main-text{
   background-color: var(--navyblue, #2E2F42);
   color: white;
-  text-align: center;
-  font-size: large;
+  font-size: large
+  
 
+}
+
+.top-text{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 56px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 60px; /* 107.143% */
+  letter-spacing: 1.12px;   
 }
 
 .button-item{
   background-color:var(--iris, #4D5AE5);
+  font-size: 16px;
+  font: bolder;
   color: white;
+  border-radius: 4px;
+  border: none;
+  
+
 }
+
+.services-item {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
