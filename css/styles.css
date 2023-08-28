@@ -1,40 +1,96 @@
 
 body {
-  font-family: 'Raleway', sans-serif;
+  
   font-family: 'Roboto', sans-serif;
   
 }
 
-.header-text {
+.logo{
   color: var(--iris, #4D5AE5);
-font-family: Raleway;
-font-size: 18px;
-font-style: normal;
-font-weight: 800;
-line-height: 21px; /* 116.667% */
-letter-spacing: 0.54px;
-text-transform: uppercase;
-text-decoration: none;
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo span{ 
+  color: var(--navyblue, #2E2F42);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+ text-transform: uppercase;
 }
 
 
-.header-item {
-  color: var(--navyblue, #2E2F42);
-  font-family: Raleway; 
+.nav-bar ul{
+ list-style: none;
+ text-decoration: none;
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 600;
+ line-height: 24px; /* 150% */
+ letter-spacing: 0.32px;
+ margin: 0;
+ padding: 0;
+ 
 }
 
 .list{
-  list-style: none;
-  padding: 0;
-  margin: 0;
+  text-decoration: none;
+  color: black;
+}
+
+.nav-bar ul li a:hover {
+  color: var(--iris, #4D5AE5);
+  text-decoration: none;
   
-}  
+}
+
+
+.contact-item {
+
+  list-style: none;
+  margin: 0%;
+  padding: 0%;  
+
+}
+
+.mail-list {
+  text-decoration: none;
+  color: var(--slate, #434455);
+
+  /* Body */
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
+.contact-list {
+  text-decoration: none;
+  color: var(--slate, #434455);
+
+ /* Body */
+
+ font-size: 16px;
+ font-style: normal;
+ font-weight: 400;
+ line-height: 24px; /* 150% */
+ letter-spacing: 0.32px;
+}
 
 .main-text{
   background-color: var(--navyblue, #2E2F42);
   color: white;
   font-size: large
-  
 
 }
 
@@ -55,7 +111,6 @@ text-decoration: none;
   color: white;
   border-radius: 4px;
   border: none;
-  
 
 }
 
@@ -65,13 +120,25 @@ text-decoration: none;
   margin: 0;
 }
 
-a {
-  text-decoration: none;
+.what-we-do-text {
+  color: var(--navyblue, #2E2F42);
+  text-align: center;
+  
+  /* Header 2 */
+  
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px; /* 111.111% */
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
 }
 
-p.pavel, p.design {
-	font-family: 'Open Sans', sans-serif;
-  word-spacing: -5;
-	color:	#708090;
+.t{
+  text-decoration: none;
+  margin: 0%;
+  padding: 0%;
   
 }
+
+
