@@ -18,6 +18,10 @@ text-decoration: none;
 }
 
 
+.header-item {
+  color: var(--navyblue, #2E2F42);
+  font-family: Raleway; 
+}
 
 .list{
   list-style: none;
@@ -61,3 +65,13 @@ text-decoration: none;
   margin: 0;
 }
 
+a {
+  text-decoration: none;
+}
+
+p.pavel, p.design {
+	font-family: 'Open Sans', sans-serif;
+  word-spacing: -5;
+	color:	#708090;
+  
+}
