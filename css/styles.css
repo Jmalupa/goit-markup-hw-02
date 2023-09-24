@@ -29,7 +29,7 @@ body {
 }
 
 
-.header-navigaton ul{
+.header-navigation ul{
  list-style: none;
  text-decoration: none;
  font-size: 16px;
@@ -53,7 +53,7 @@ body {
   text-decoration: none;
 }
 
-.header-navigaton ul li a:hover {
+.header-navigation ul li a:hover {
   color: var(--iris, #4D5AE5);
   text-decoration: none;
   
@@ -160,6 +160,49 @@ body {
 
 }  
 
-.
 
+.team-item{
 
+}
+
+.team-item-title {
+
+}
+
+.team-item-text{
+
+}
+
+.footer{
+  background-color: var(--navyblue, #2E2F42);
+  color: white;
+  font-size: large
+}
+
+.footer-title{
+  color: var(--iris, #4D5AE5);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+  text-decoration: none;
+
+}
+
+.footer-title span{
+  color: var(--navyblue,white);
+  font-family: Raleway;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 21px; /* 116.667% */
+  letter-spacing: 0.54px;
+  text-transform: uppercase;
+}
+
+.footer-text{
+
+}
