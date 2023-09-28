@@ -1,13 +1,12 @@
 
 body {
-  
+  font-family: 'Raleway', sans-serif;
   font-family: 'Roboto', sans-serif;
-  color: black;
 }
 
 .header-logo{
   color: var(--iris, #4D5AE5);
-  font-family: Raleway;
+  font-family: raleway;
   font-size: 18px;
   font-style: normal;
   font-weight: 800;
@@ -131,6 +130,13 @@ body {
   margin: 0;
 }
 
+.services-item-title{
+
+}
+
+.services-item-text{
+  color: var(--slate, #434455);
+}
 .what-we-do-text {
   color: var(--navyblue, #2E2F42);
   text-align: center;
@@ -171,7 +177,7 @@ body {
 }
 
 .team-item-text{
-
+  color: var(--slate, #434455);
 }
 
 /* Portfolio */
